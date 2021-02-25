@@ -1,0 +1,244 @@
+@import 'fonts';
+
+.scc {
+    font-family: 'Circular Pro', Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+
+    * {
+        box-sizing: border-box;
+    }
+
+    img {
+        border: 0;
+        max-width: 100%;
+    }
+
+    p {
+        margin-top: 0;
+        margin-bottom: 25px;
+    }
+
+    .notice p {
+        margin-bottom: 0;
+
+        .notice-dismiss {
+            padding: 3px;
+        }
+    }
+
+    h3 {
+        text-transform: uppercase;
+    }
+
+    .tt-lowercase {
+        text-transform: lowercase;
+    }
+
+    .scc-btn {
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        user-select: none;
+        transition: 0.2s ease-in-out;
+        padding: 9px 36px;
+        font-size: 14px;
+        color: #ffffff;
+        background-color: #1C1A34;
+        border-radius: 3px;
+        text-decoration: none;
+        line-height: 1.4;
+        cursor: pointer;
+        border: 2px solid transparent;
+
+        &:hover {
+            background-color: darken(#1C1A34, 10%);
+        }
+
+        &.\--theme-secondary {
+            background-color: #49485D;
+
+            &:hover {
+                background-color: darken(#49485D, 10%);
+            }
+        }
+    }
+
+
+    .scc-header {
+        padding: 20px;
+        background-color: #90A90F;
+        width: 100%;
+        background-image: url('../media/header-bg.jpg');
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: center;
+
+        .logo {
+            width: 200px;
+            margin-bottom: 30px;
+        }
+
+        .tagline p {
+            font-size: 1.7rem;
+        }
+
+        @media (min-width: 768px) {
+            padding: 30px;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .logo {
+                margin-bottom: 0;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .logo {
+                width: 290px;
+            }
+        }
+    }
+
+    .scc-header__col {
+        max-width: 304px;
+        padding-right: 15px;
+        min-width: 208px;
+
+        &:last-child {
+            padding-right: 0;
+        }
+
+        h1 {
+            padding: 0;
+        }
+
+        p {
+            color: #fff;
+            font-size: 14px;
+            letter-spacing: -0.15px;
+            text-align: center;
+            margin-bottom: 40px;
+
+            @media (min-width: 1024px) {
+                font-size: 18px;
+            }
+
+            @media (min-width: 768px) {
+                text-align: left;
+                margin-bottom: 0;
+            }
+        }
+
+        a {
+            display: inline-block;
+
+            +a {
+                margin-left: 20px;
+            }
+        }
+    }
+
+    .scc-body {
+        margin-top: 30px;
+
+        hr {
+            border-bottom: 0 none;
+            border-top: 1px solid #E3E2E7;
+            margin: 30px 0;
+        }
+
+        p {
+            font-size: 16px;
+            letter-spacing: -0.15px;
+            color: #5D5770;
+            margin-bottom: 30px;
+
+            a {
+                color: #4F4391;
+            }
+        }
+
+        h3 {
+            color: #4F4391;
+            margin-top: 0;
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 18px;
+            line-height: 1.4;
+            font-family: 'Mark OT', Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+    }
+
+    .scc-body__row {
+        display: flex;
+        flex-direction: column;
+
+        @media (min-width: 768px) {
+            flex-direction: row;
+        }
+
+    }
+
+    .scc-body__col {
+        padding: 30px;
+        background: #ffffff;
+
+        +.scc-body__col {
+            margin-top: 30px;
+        }
+
+        &.\--sidebar {
+            hr {
+                margin: 30px -30px;
+            }
+        }
+
+
+        @media (min-width: 768px) {
+            &.\--sidebar {
+                margin-top: 0;
+                margin-left: 30px;
+                max-width: 335px;
+            }
+        }
+    }
+
+    .scc-cookie-code {
+
+        p + p {
+            color: #8B8799;
+        }
+
+        textarea {
+            width: 100%;
+            min-height: 125px;
+            max-width: 100%;
+            border: 1px solid #E3E2E7;
+            padding: 10px;
+            outline: 0 none;
+            border-radius: 3px;
+            margin-bottom: 15px;
+            color: #5D5770;
+            font-size: 14px;
+            line-height: 1.5;
+            font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+        }
+
+        input[type="submit"].button {
+            @extend .scc-btn;
+            background-color: #CBC9D1;
+            color: #4E4762;
+
+            &:hover {
+                background-color: darken(#CBC9D1, 10%);
+            }
+        }
+    }
+
+}

@@ -1,0 +1,33 @@
+
+@font-face {
+    font-family: 'Circular Pro';
+    src: local('Circular Pro'),
+        url('../media/fonts/circularpro/lineto-circular-pro-book.eot');
+        src: url('../media/fonts/circularpro/lineto-circular-pro-book.woff2') format('woff2'),
+        url('../media/fonts/circularpro/lineto-circular-pro-book.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Circular Pro';
+    src: local('Circular Pro'),
+        url('../media/fonts/circularpro/lineto-circular-pro-bold.eot');
+        src: url('../media/fonts/circularpro/lineto-circular-pro-bold.woff2') format('woff2'),
+        url('../media/fonts/circularpro/lineto-circular-pro-bold.woff') format('woff');
+    font-weight: 700;
+    font-display: swap;
+}
+
+
+//MarkOT
+@font-face {
+    font-family: 'Mark OT';
+    src: local('Mark OT'),
+        url('../media/fonts/markot/MarkOT-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../media/fonts/markot/MarkOT-Bold.woff2') format('woff2'),
+        url('../media/fonts/markot/MarkOT-Bold.woff') format('woff'),
+        url('../media/fonts/markot/MarkOT-Bold.svg#MarkOT') format('svg');
+    font-style: normal;
+    font-display: swap;
+}

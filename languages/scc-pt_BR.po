@@ -1,0 +1,158 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Cookie Consent for GDPR/CCPA | Securiti\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-18 06:46+0000\n"
+"PO-Revision-Date: 2021-01-18 11:21+0000\n"
+"Last-Translator: \n"
+"Language-Team: Portuguese (Brazil)\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.0; wp-5.6\n"
+"X-Domain: scc"
+
+#: admin/options-page.php:78
+msgid "About"
+msgstr "SOBRE"
+
+#: admin/options-page.php:61
+msgid "Access Securiti Account"
+msgstr "Acesse a conta Securiti"
+
+#: admin/options-page.php:36
+msgid "access to a Securiti account"
+msgstr "acesso a uma conta Securiti"
+
+#. Description of the plugin
+msgid ""
+"Cookie Consent by Securiti helps organizations simplify deployment of a "
+"cookie consent banner. Generate and deploy a cookie banner in one day!"
+msgstr ""
+"Cookie Consentimento por Securiti ajuda as organizações a cumprir os "
+"regulamentos globais de privacidade. Gere e implante um banner cookie "
+"rapidamente!"
+
+#. Name of the plugin
+msgid "Cookie Consent for GDPR/CCPA | Securiti"
+msgstr "Cookie Consent para GDPR/CCPA | Securiti"
+
+#: admin/options-page.php:36
+msgid ""
+"copy and paste your styling and cookie consent script into the box below to "
+"start display our cookie banner on your Wordpress website."
+msgstr ""
+"copie e cole seu estilo e script de consentimento cookie na caixa abaixo "
+"para começar a exibir nosso banner cookie em seu site Wordpress."
+
+#: admin/options-page.php:63
+msgid "Create Securiti Account"
+msgstr "Crie uma conta Securiti"
+
+#: admin/options-page.php:55
+msgid "Disclaimer"
+msgstr "ISENÇÃO DE RESPONSABILIDADE"
+
+#: admin/options-page.php:68
+msgid "Email us at"
+msgstr "Envie-nos um email para"
+
+#: admin/options-page.php:67
+msgid "GET HELP"
+msgstr "OBTER AJUDA"
+
+#: admin/options-page.php:28
+msgid "Getting Started with"
+msgstr "Começar com"
+
+#: admin/options-page.php:12
+msgid "Global Leader in Privacy Management"
+msgstr "Líder global em gerenciamento de privacidade"
+
+#: admin/options-page.php:72
+msgid "How do I upgrade from the free edition"
+msgstr "COMO FAÇO PARA ATUALIZAR A PARTIR DA EDIÇÃO GRATUITA"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid ""
+"https://securiti.ai/privaci/cookie-consent-management/?"
+"utm_source=wordpress&utm_medium=referral&utm_campaign=plugin"
+msgstr ""
+"https://securiti.ai/privaci/cookie-consent-management/?"
+"utm_source=wordpress&utm_medium=referral&utm_campaign=plugin"
+
+#: admin/options-page.php:38
+msgid "Insert the code from Securiti here."
+msgstr "Insira o código de Securiti aqui."
+
+#: admin/options-page.php:36
+msgid "Once you have"
+msgstr "Depois de ter"
+
+#: admin/options-page.php:74
+msgid "pricing page"
+msgstr "página de preços"
+
+#. Author of the plugin
+msgid "Securiti"
+msgstr "Securiti"
+
+#: admin/options-page.php:53
+msgid ""
+"Securiti automatically deploys the Cookie Consent script onto your site "
+"to enable visitors to provide or withdraw consent."
+msgstr ""
+"Securiti implanta automaticamente o script Cookie Consentimento em seu "
+"site para permitir que os visitantes forneçam ou retirem o consentimento."
+
+#: admin/options-page.php:79
+msgid ""
+"Securiti provides a comprehensive privacy compliance platform for global "
+"privacy law including GDPR, CCPA, and ePrivacy and is powered by an award-"
+"winning platform. Securiti was named a leader in the Forrester Wave 2020 "
+"and Most Innovative Startup in RSA 2020."
+msgstr ""
+"Securiti fornece uma plataforma abrangente de conformidade de privacidade "
+"para a lei de privacidade global, incluindo GDPR, CCPA e ePrivacy e é "
+"alimentado por uma plataforma premiada. Securiti foi nomeado líder na "
+"Forrester Wave 2020 e na inicialização mais inovadora na RSA 2020."
+
+#: admin/options-page.php:30
+msgid "Sign up for Free"
+msgstr "Cadastre-se gratuitamente"
+
+#: admin/options-page.php:74
+msgid ""
+"Simply follow the checkout process, enter your payment details to upgrade "
+"your account"
+msgstr ""
+"Basta seguir o processo de checkout, inserir seus dados de pagamento para "
+"atualizar sua conta"
+
+#: admin/options-page.php:74
+msgid "Subscribe by purchasing it on our"
+msgstr "Assine comprando-o em nossa"
+
+#: admin/options-page.php:29
+msgid "This component of the Securiti plugin requires a freemium account."
+msgstr "Este componente do plugin Securiti requer uma conta freemium."
+
+#: admin/options-page.php:73
+msgid "Upgrade to a Plan 1"
+msgstr "Atualizar para um Plano 1"
+
+#: admin/options-page.php:56
+msgid ""
+"Use of this plugin does not, by itself, ensure compliance with legal "
+"requirements related to cookies"
+msgstr ""
+"O uso deste plugin não garante, por si só, o cumprimento dos requisitos "
+"legais relacionados com cookies."
+
+#: admin/options-page.php:52
+msgid "What to expect"
+msgstr "O QUE ESPERAR"
